@@ -8,6 +8,7 @@ import Row from "./components/Row";
 import Col from "./components/Col";
 
 
+
 // Random shuffle
 function randomCharacters(array) {
   for (let i = array.length - 1; i > 0; i--) {
@@ -71,7 +72,7 @@ class App extends Component {
       <Wrapper>
         <Navbar
          
-          score={this.state.currentScore}
+          score={this.state.score}
           topScore={this.state.topScore}
           correctIncorrect={this.state.correctIncorrect}
         />
@@ -82,7 +83,7 @@ class App extends Component {
             {this.state.characters.map(character => (
               <Col size="md-3 sm-6">
                 <Images
-                  key={character.id}
+                  key={character.id.toString()} // to string
                   handleClick={this.handleClick}
                   handleIncrement={this.handleIncrement}
                   handleReset={this.handleReset}
