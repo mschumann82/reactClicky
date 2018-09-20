@@ -6,6 +6,8 @@ Technologies used:
 
 React.js
 
+Acknowledgements: Background and images used are from The Venture Brothers television show on Adult Swim on Cartoon Network.
+
 Author - Michael Schumann
 
 This project is licensed under the MIT License.
