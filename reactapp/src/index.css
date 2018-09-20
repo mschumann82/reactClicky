@@ -1,14 +1,21 @@
 * {
   box-sizing: border-box;
+  
+  
 }
 
 html,
 body,
+.card,
 #root,
 #root > div,
 div[data-reactroot] {
   height: 100%;
   padding: 0;
   margin: 0;
+  border: 0;
+  width: 100%;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_lNbAssEPBpw84S4QmmnBH9Potuap3s6g6ZRKWghn9GRxhBj-0g");
+  color: white;
 }
 

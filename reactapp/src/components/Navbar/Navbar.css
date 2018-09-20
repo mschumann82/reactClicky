@@ -1,8 +1,30 @@
 nav.navbar.navbar-default {
   margin-bottom: 0;
   
+  
+  
 }
 
-h3.center {
+div.size {
+  width: 100%;
+}
+
+nav.navbar {
+  width: 100%;
+  /* text-align: center; */
+}
+
+li.list {
+  margin-bottom: .5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+  width: 100%;
+    
+}
+
+ul.navbar-nav {
   text-align: center;
 }
+

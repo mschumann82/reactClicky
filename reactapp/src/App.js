@@ -6,6 +6,7 @@ import Images from "./components/Images";
 import Container from "./components/Container";
 import Row from "./components/Row";
 import Col from "./components/Col";
+import Directions from "./components/Directions";
 
 
 
@@ -19,7 +20,7 @@ function randomCharacters(array) {
 };
 
 class App extends Component {
-  // Set this.state
+  // Set state
   state = {
     characters,
     score: 0,
@@ -76,7 +77,7 @@ class App extends Component {
           topScore={this.state.topScore}
           correctIncorrect={this.state.correctIncorrect}
         />
-
+      <Directions />
         
         <Container>
           <Row>

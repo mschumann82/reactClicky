@@ -4,27 +4,37 @@ import "./Navbar.css";
 
 
 const Navbar = props => (
-  <nav className="navbar navbar-expand-lg navbar-light bg-light">
+  <nav className="navbar">
     
-    <div>
+    <div className="size">
       <ul className="navbar-nav">
-        <li>
+        <li className="list">
           Memory Game
          
         </li>
-        <li>
+        <li className="list">
           
             Click an image to begin!
           
         </li>
-        <li>
+        <li className="list">
           
-            Score: {props.score} | Top Score: {props.topScore}
+            Score: {props.score} | 
+          
+        </li>
+        <li className="list">
+          
+             Top Score: {props.topScore}
+          
+        </li>
+        <li className="list">
+          
+             {props.correctIncorrect} 
           
         </li>
       </ul>
-      <h3 className="center">Click on an image to earn points, but don't click on any more than once!</h3>
-    </div>
+      </div>
+      
   </nav>
 );
 
