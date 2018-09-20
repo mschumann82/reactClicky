@@ -9,7 +9,7 @@ const Images = props => (
     onClick={() => props.handleClick(props.id)}
   >
     <div className="img-container">
-      <img alt={props.name} src={window.location.origin + props.image} />
+      <img alt={props.name} src={props.image} />
     </div>
   </div>
 );
