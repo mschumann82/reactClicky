@@ -14,5 +14,6 @@
     "create": "0.0.2",
     "react": "^16.5.0",
     "yarn": "^1.9.4"
-  }
+  },
+  "homepage": "https://mschumann82.github.io/reactClicky/"
 }
