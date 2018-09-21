@@ -1,62 +1,62 @@
 [
     {
       "id": 1,
-      "image": "/assets/images/24.jpg",
+      "image": "/reactclicky/assets/images/24.jpg",
       "clicked": false
     },
     {
       "id": 2,
-      "image": "/assets/images/brock.jpg",
+      "image": "/reactclicky/assets/images/brock.jpg",
       "clicked": false
     },
     {
       "id": 3,
-      "image": "/assets/images/dean.jpg",
+      "image": "/reactclicky/assets/images/dean.jpg",
       "clicked": false
     },
     {
       "id": 4,
-      "image": "/assets/images/dr girlfriend.jpg",
+      "image": "/reactclicky/assets/images/dr girlfriend.jpg",
       "clicked": false
     },
     {
       "id": 5,
-      "image": "/assets/images/drventure.jpg",
+      "image": "/reactclicky/assets/images/drventure.jpg",
       "clicked": false
     },
     {
       "id": 6,
-      "image": "/assets/images/hank.jpg",
+      "image": "/reactclicky/assets/images/hank.jpg",
       "clicked": false
     },
     {
       "id": 7,
-      "image": "/assets/images/johnny.jpg",
+      "image": "/reactclicky/assets/images/johnny.jpg",
       "clicked": false
     },
     {
       "id": 8,
-      "image": "/assets/images/molotov.jpg",
+      "image": "/reactclicky/assets/images/molotov.jpg",
       "clicked": false
     },
     {
       "id": 9,
-      "image": "/assets/images/monarch.jpg",
+      "image": "/reactclicky/assets/images/monarch.jpg",
       "clicked": false
     },
     {
       "id": 10,
-      "image": "/assets/images/mrfantastic.jpg",
+      "image": "/reactclicky/assets/images/mrfantastic.jpg",
       "clicked": false
     },
     {
       "id": 11,
-      "image": "/assets/images/orpheus.jpg",
+      "image": "/reactclicky/assets/images/orpheus.jpg",
       "clicked": false
     },
     {
       "id": 12,
-      "image": "/assets/images/shoreleave.jpg",
+      "image": "/reactclicky/assets/images/shoreleave.jpg",
       "clicked": false
     }
   ]
